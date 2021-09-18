@@ -72,6 +72,10 @@ a {
     border-bottom: 1px solid;
 }
 
+a:hover {
+    color: #FFBE00;
+}
+
 .featured-text { color: #FFBE00; }
 .white-text    { color: white; }
 
