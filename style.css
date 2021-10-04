@@ -47,6 +47,8 @@ body {
 .tall-100 { min-height: 100vh; }
 
 
+
+
 /*--Typography Styles--*/
 
 h2 {
@@ -54,7 +56,9 @@ h2 {
     line-height: 1.1;
     margin-bottom: 1rem;
 }
-h3 { line-height: 1.1; }
+h3 { 
+    line-height: 1.1;
+ }
 
 p {
     font-weight: 200;
@@ -116,7 +120,7 @@ header {
 }
 
 header h3 {
-    font-size: 5.5rem;
+    font-size: 8.5vw;
     line-height: 1;
 }
 
