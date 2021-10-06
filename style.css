@@ -36,6 +36,15 @@ body {
 .padded-sm  { padding: 1rem;}
 .padded-lg  { padding: 10%; }
 
+.padded-t { padding-top: 5%; }
+.padded-t-1 { padding-top: 1rem; }
+.padded-r-1 { padding-right: 1rem; }
+.padded-b-0 { padding-bottom: 0; }
+
+.margin-t-1 { margin-top: 1rem; }
+.margin-t-2 { margin-top: 2rem; }
+.margin-b-0 { margin-bottom: 0; }
+
 .bg-dark { 
     background-color: #192b37;
     color: white;
@@ -47,7 +56,9 @@ body {
 .tall-100 { min-height: 100vh; }
 
 
-
+ /* [class*=col-] {
+    padding: 0;
+  }*/
 
 /*--Typography Styles--*/
 
@@ -110,6 +121,10 @@ a:hover {
 .text-center    { text-align: center; }
 .text-right     { text-align: right;  }
 
+.uppercase {text-transform: uppercase;}
+
+.red { color: red;}
+
 
 /*--Header & Footer Styles--*/
 
@@ -122,6 +137,13 @@ header {
 header h3 {
     font-size: 8.5vw;
     line-height: 1;
+}
+
+section a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.5rem;
+    border: none;
 }
 
 footer a {
@@ -145,6 +167,11 @@ footer a {
         background-image: url(/images/the-sleep-co-5.jpg);
         background-position: 50% 55%;
 }
+.bg-mattress {
+    background-image: url(/images/the-sleep-co6.jpg);
+    background-position: 50% 55%;
+    border-radius: 5px;
+}
 
 
 /*--Icon Styles--*/
@@ -155,3 +182,65 @@ footer a {
     font-size: 3rem;
     margin-bottom: 2rem;
 }
+
+/*-- Card Styles --*/
+
+.card {
+    background-color: #192b37;
+    padding: 0;
+    background-color: #192b37;
+    border: 0.5rem solid ;
+    border-radius: 10px;
+  }
+
+.post-info {
+    padding: 1rem;
+    text-align: center;
+  }
+
+.card a {
+    color:white;
+}
+
+.card:hover {
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,.2),0 10px 10px -5px rgba(0,0,0,.2);
+  }
+
+.button {
+    background-color: #FFBE00;
+    color: #white;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #FFBE00;
+    border-radius: 3rem;
+    /*top +bottom then left + right*/
+    padding: 0.4rem 2.8rem;
+    display: inline-block;
+  }
+
+/*-- Contact Form Styles --*/
+  form input, 
+form textarea {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 1px solid rgb(220,220,220);
+  outline: none;
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+form label {
+    margin-top: 1rem;
+    display: block;
+    font-weight: bold;
+  }
+  form button {
+    background-color:#192b37;
+    color:white;
+    border: 2px solid #192b37;
+    border-radius: 3rem;
+    padding: 0.5rem 1.5rem;
+    letter-spacing: 0.1em;
+    margin: 0.5rem 0;
+  }
