@@ -23,23 +23,24 @@
 
 <!-- This is the body which is all contect that will be displayed on website--> 
 <body>
-     <!------------ Header NAV -------------->
-     <section class="grid-middle">
+  
+    <!------------ Header NAV -------------->
+    <section class="grid-middle">
         <div class="col-4">
             <a href="#" class="margin-t-2">
-            <h2> <span class="uppercase">The Sleep </span> Co </h2>
+                <h2> <span class="logo">The Sleep </span> Co </h2>
             </a>
         </div>
-        <nav class="col-8 text-right margin-t-2"> 
+        <nav class="col-8-middle text-right margin-t-2"> 
             <a href="/index.html"> Home </a>
             <a href="/about.html"> About </a>
             <a href="/products.html"> Products </a>
-            <a href="/contact.html" class="padded-r-1"> Contact </a>
+            <a href="/contact.html" class="padded-r-2"> Contact </a>
         </nav>
     </section>
 
     <!------------ Header banner -------------->
-    <header class="padded grid text-center tall-100">
+    <header class="grid text-center tall-100">
         <div class=col-12-middle>
             <h3> <span class="featured-text weight-extra-bold"> sleep </span> like a baby </h3>
             <h1 class="weight-light"> start your best sleep today </h1>
@@ -53,19 +54,15 @@
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, voluptate explicabo voluptatum esse ratione animi facilis non facere nisi porro nostrum sequi est consequatur? Corporis exercitationem quibusdam nesciunt fugit fugiat?</p>
         </div>
         <div class="col-6 padded">
-            <h2> Leave a message </h2>
 
             <form class="padded-t-1">
-                <label for="_name"> Name <span class="red weight-light">*</span> </label>
                 <input type="text" name="_name" id="_name" placeholder="Name" />
             
-                <label for="_replyto"> Email <span class="red weight-light">*</span> </label>
                 <input type="email" name="_replyto" id="_replyto" placeholder="Email" />
+        
+                <textarea name="message" id="message" placeholder="Message..." rows="4"></textarea>
             
-                <label for="message"> Message <span class="red weight-light">*</span> </label>
-                <textarea name="message" id="message" placeholder="Message..."></textarea>
-            
-                <button type="submit"> Send </button>
+                <button class="button" type="submit"> Send </button>
                 
             </form> 
         </div>
